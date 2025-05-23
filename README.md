@@ -27,6 +27,8 @@ CREATE TABLE appointments (
 -- Index for performance
 CREATE INDEX ON appointments (datetime);
 
+//The database code above 
+
 
 // STEP 2: Backend Logic (Node.js-compatible, e.g., Bolt.new or Lovable.dev)
 // Reminder Scheduler Logic (runs every 15 min)
